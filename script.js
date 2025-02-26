@@ -1,15 +1,15 @@
 const quizData = {
     easy: [
         { question: "What does HTML stand for?", options: ["Hyper Text Markup Language", "High Tech Modern Layout", "Hyperlink and Text Management Language", "Home Tool Markup Language"], answer: 0 },
-        { question: "Which tag is used to create a paragraph in HTML?", options: ["<p>", "<h1>", "<div>", "<span>"], answer: 0 },
+        { question: "Which tag is used to create a paragraph in HTML?", options: ["<p>", "<div>", "<span>", "<h1>"], answer: 3 },
         { question: "Which attribute is used to add an image to an HTML page?", options: ["href", "src", "alt", "img"], answer: 1 },
         { question: "Which HTML tag is used to make text bold?", options: ["<bold>", "<b>", "<strong>", "<em>"], answer: 1 },
         { question: "What does CSS stand for?", options: ["Cascading Style Sheets", "Creative Style System", "Computer Styled Sheets", "Colorful Style Script"], answer: 0 },
-        { question: "Which unit is used to define font size in CSS?", options: ["px", "cm", "kg", "sec"], answer: 0 },
+        { question: "Which unit is used to define font size in CSS?", options: [ "cm", "kg","px", "sec"], answer: 2 },
         { question: "Which property changes the text color in CSS?", options: ["color", "text-color", "font-color", "background"], answer: 0 },
-        { question: "Which HTML tag is used to create a table?", options: ["<table>", "<tab>", "<tbl>", "<tr>"], answer: 0 },
+        { question: "Which HTML tag is used to create a table?", options: [ "<tab>", "<table>","<tbl>", "<tr>"], answer: 0 },
         { question: "Which symbol is used in CSS to select an ID?", options: ["#", ".", "@", "*"] , answer: 0 },
-        { question: "Which of the following is a valid HTML closing tag?", options: ["</p>", "<p/>", "<close>p</close>", "<p-end>"], answer: 0 }
+        { question: "Which of the following is a valid HTML closing tag?", options: ["<p/>", "<close>p</close>", "<p-end>","</p>"], answer: 3 }
     ],
     medium: [
         { question: "Which CSS property makes text bold?", options: ["font-style", "font-weight", "text-bold", "boldness"], answer: 1 },
