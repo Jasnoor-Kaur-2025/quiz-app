@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start-container" class="quiz-container">
+        <h2>Welcome to the Web Dev Quiz</h2>
+        <input type="text" id="player-name" placeholder="Enter your name" />
+        <h3>Select Difficulty:</h3>
+        <button onclick="startQuiz('easy')">Easy</button>
+        <button onclick="startQuiz('medium')">Medium</button>
+        <button onclick="startQuiz('hard')">Hard</button>
+    </div>
+
+    <div id="quiz-container" class="quiz-container" style="display: none;">
+        <h2 id="question">Loading Questions</h2>
+        <div class="options" id="options"></div>
+        <p id="score"></p>
+    </div>
+
+    <div id="result-container" class="quiz-container" style="display: none;">
+        <h2>Quiz Completed!</h2>
+        <p id="result-message"></p>
+        <button onclick="restartQuiz()">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
